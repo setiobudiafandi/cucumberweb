@@ -14,8 +14,8 @@ Then(/^I should see the inventory page$/, async () => {
     await expect(browser).toHaveUrl("https://www.saucedemo.com/inventory.html")
 })
 
-When(/^I input the invalid creds$/, async () => {
-    await LoginPage.login('standard_userdgsa','secret_sauce')
+When(/^I input (\w+) and (.+)$/, async (username,password) => {
+    await LoginPage.login(username,password)
 })
 
 Then(/^I should see the error message$/, async () => {

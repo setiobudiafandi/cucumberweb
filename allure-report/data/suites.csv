@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jul 10 16:50:41 WIB 2024","Wed Jul 10 16:50:41 WIB 2024","86","","Login test: Login failed","","","","Then I should see the error message",""
+"passed","Wed Jul 10 16:50:37 WIB 2024","Wed Jul 10 16:50:39 WIB 2024","1598","","Login test: Login failed","","","","When I input standard_user and Value 2",""
+"failed","Wed Jul 10 16:50:41 WIB 2024","Wed Jul 10 16:50:41 WIB 2024","3","","","","","","hook:",""
+"passed","Wed Jul 10 16:50:39 WIB 2024","Wed Jul 10 16:50:39 WIB 2024","196","","Login test: Login failed","","","","Given I open the web",""
+"passed","Wed Jul 10 16:50:39 WIB 2024","Wed Jul 10 16:50:41 WIB 2024","1344","","Login test: Login failed","","","","When I input wrong_user and secret_sauce",""
